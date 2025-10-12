@@ -1,6 +1,7 @@
 {
   "name": "grad-portfolio",
-  "private": true,
+  "private": false,
+  "homepage": "https://ireaching.github.io/grad-portfolio/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
