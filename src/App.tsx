@@ -36,7 +36,7 @@ const experiences: Experience[] = [
   {
     title: 'Capstone Leader & Fullstack Developer',
     organisation: 'Pamantasan ng Lungsod ng Valenzuela',
-    timeframe: '2025 - 4-month sprint',
+    timeframe: '2024 - 2025',
     description:
       'Designed, built, and maintained CondoLink - a community management platform that centralises bookings, maintenance, and resident communications.',
     bullets: [
