@@ -71,6 +71,7 @@ export default function App() {
       <Navbar />
       <main className="flex-1">
         <HeroSection />
+        <DemoReelSection />
         <HighlightsSection />
         <ExperienceSection />
         <ProjectsSection />
@@ -130,6 +131,23 @@ function HeroSection() {
         </div>
       </div>
     </section>
+  )
+}
+
+function DemoReelSection() {
+  return (
+    <Section id="demo-reel" title="Demo reel">
+      <div className="relative mx-auto max-w-4xl overflow-hidden rounded-3xl border border-white/10 bg-slate-900/50 shadow-[0_30px_70px_-45px_rgba(56,189,248,0.45)]">
+        <video 
+          className="w-full h-auto aspect-video outline-none" 
+          controls 
+          preload="metadata"
+        >
+          <source src={`${import.meta.env.BASE_URL}demoreel.mp4`} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </Section>
   )
 }
 
