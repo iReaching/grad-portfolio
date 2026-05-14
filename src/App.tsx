@@ -61,7 +61,7 @@ const experiences: Experience[] = [
 
 const contactLinks = [
   { label: 'Email', value: '09roscaandrei@gmail.com', href: 'mailto:09roscaandrei@gmail.com' },
-  { label: 'LinkedIn', value: 'linkedin.com/in/andrei-rosca-7666aa369', href: 'https://linkedin.com/in/andrei-rosca-7666aa369/' },
+  { label: 'LinkedIn', value: 'linkedin.com/in/andrei-devenecia-rosca', href: 'https://linkedin.com/in/andrei-devenecia-rosca/' },
   { label: 'GitHub', value: 'github.com/iReaching', href: 'https://github.com/iReaching' },
 ]
 
