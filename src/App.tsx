@@ -138,9 +138,9 @@ function DemoReelSection() {
   return (
     <Section id="demo-reel" title="Demo reel">
       <div className="relative mx-auto max-w-4xl overflow-hidden rounded-3xl border border-white/10 bg-slate-900/50 shadow-[0_30px_70px_-45px_rgba(56,189,248,0.45)]">
-        <video 
-          className="w-full h-auto aspect-video outline-none" 
-          controls 
+        <video
+          className="w-full h-auto aspect-video outline-none"
+          controls
           preload="metadata"
         >
           <source src={`${import.meta.env.BASE_URL}demoreel.mp4`} type="video/mp4" />
@@ -299,14 +299,13 @@ function ContactSection() {
         <div className="rounded-3xl border border-white/10 bg-gradient-to-br from-sky-500/20 via-slate-900/80 to-slate-950 p-6">
           <h3 className="text-xl font-semibold text-white">Tell me what you're building</h3>
           <p className="mt-3 text-sm text-slate-200">
-            I'm looking for junior developer roles, IT support positions, or hybrid roles that mix both. I love fast-moving teams
-            that value learning in public. Drop me a note with what you need and I'll reply within the day.
+            I'm looking for junior developer roles, IT support positions, or hybrid roles that mix both. Drop me a note with what you need and I'll reply within the day.
           </p>
           <a
             href="mailto:09roscaandrei@gmail.com"
             className="mt-6 inline-flex items-center justify-center rounded-full bg-white px-6 py-3 text-sm font-semibold text-slate-950 transition hover:bg-sky-200"
           >
-            Email me a brief
+            Email me
           </a>
         </div>
         <div className="rounded-3xl border border-white/10 bg-slate-900/80 p-6">

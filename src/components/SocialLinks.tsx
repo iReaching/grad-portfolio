@@ -1,6 +1,6 @@
 export function SocialLinks() {
   const links = [
-    { href: 'https://linkedin.com/in/andrei-rosca-7666aa369/', label: 'LinkedIn' },
+    { href: 'https://linkedin.com/in/andrei-devenecia-rosca/', label: 'LinkedIn' },
     { href: 'https://github.com/iReaching', label: 'GitHub' },
     { href: 'https://facebook.com/Rosca.Andrei.D/', label: 'Facebook' },
   ]
