@@ -27,7 +27,7 @@ const metrics: Metric[] = [
   },
   {
     label: 'IT Support',
-    value: '468',
+    value: '468hrs',
     description: 'Fielding hardware and software issues for staff at Our Lady of Fatima University - Valenzuela.',
   },
 ]
