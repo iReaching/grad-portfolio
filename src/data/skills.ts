@@ -14,16 +14,16 @@ export const coreSkills: SkillGroup[] = [
     title: 'Frontend craft',
     summary: 'Reusable interfaces in React with smooth, accessible interactions.',
     skills: [
-      { name: 'React + TypeScript/JavaScript', level: 'Beginner' },
-      { name: 'Tailwind CSS', level: 'Beginner' },
+      { name: 'React + TypeScript/JavaScript', level: 'Proficient' },
+      { name: 'Tailwind CSS', level: 'Proficient' },
     ],
   },
   {
     title: 'Backend & data',
     summary: 'Comfortable wiring APIs, and handling auth.',
     skills: [
-      { name: 'MySQL', level: 'Beginner' },
-      { name: 'PHP', level: 'Beginner' },
+      { name: 'MySQL', level: 'Proficient' },
+      { name: 'PHP', level: 'Proficient' },
     ],
   },
   {

@@ -26,9 +26,9 @@ const metrics: Metric[] = [
     description: 'Led end-to-end development of a condo management platform used by multiple stakeholders.',
   },
   {
-    label: 'Hours troubleshooting',
-    value: '250+',
-    description: 'Fielding hardware and software issues for classmates, family, and capstone teammates.',
+    label: 'IT Support',
+    value: '468',
+    description: 'Fielding hardware and software issues for staff at Our Lady of Fatima University - Valenzuela.',
   },
 ]
 
@@ -36,7 +36,7 @@ const experiences: Experience[] = [
   {
     title: 'Capstone Leader & Fullstack Developer',
     organisation: 'Pamantasan ng Lungsod ng Valenzuela',
-    timeframe: '2024 - 2025',
+    timeframe: '2024 - 2026',
     description:
       'Designed, built, and maintained CondoLink - a community management platform that centralises bookings, maintenance, and resident communications.',
     bullets: [
@@ -46,15 +46,15 @@ const experiences: Experience[] = [
     ],
   },
   {
-    title: 'IT Support & Device Specialist',
-    organisation: 'Freelance / Campus Requests',
-    timeframe: '2023 - Present',
+    title: 'IT Support',
+    organisation: 'Our Lady of Fatima University - Valenzuela',
+    timeframe: 'June 2025 - October 2025',
     description:
-      'Provides on-call troubleshooting for personal computers, printers, and campus lab equipment within the local community.',
+      'Provided hands-on IT support for campus computers, printers, and network-connected devices at Our Lady of Fatima University - Valenzuela.',
     bullets: [
-      'Diagnoses and resolves OS, connectivity, and driver issues under tight time constraints.',
-      'Builds and reassembles custom PCs, validating thermals and performance with stress testing.',
-      'Documents fixes to shorten repeat requests and to guide classmates through self-service.',
+      'Assisted with troubleshooting hardware, software, Windows, driver, printer, and connectivity issues.',
+      'Helped with PC setup, software installation, system maintenance, cable management, and basic network support.',
+      'Documented recurring technical issues and organized equipment for staff.',
     ],
   },
 ]
@@ -224,26 +224,14 @@ function ProjectsSection() {
                 ))}
               </div>
               <div className="mt-6 flex flex-wrap items-center gap-4 text-sm font-medium">
-                {project.live && (
-                  <a
-                    href={project.live}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="text-sky-300 transition hover:text-sky-200"
-                  >
-                    Visit live site -&gt;
-                  </a>
-                )}
-                {project.repo && (
-                  <a
-                    href={project.repo}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="text-slate-300 transition hover:text-slate-200"
-                  >
-                    View source -&gt;
-                  </a>
-                )}
+                <a
+                  href={project.repo}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-slate-300 transition hover:text-slate-200"
+                >
+                  View source -&gt;
+                </a>
               </div>
             </div>
           </article>
